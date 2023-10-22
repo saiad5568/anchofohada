@@ -1,0 +1,27 @@
+<!-- public/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <img src="/thumbnail?v=dQw4w9WgXcQ">
+  <picture>
+    <source media="(max-width: 600px)" srcset="thumbnail_small.jpg">
+    <img src="thumbnail_large.jpg" alt="Video Thumbnail">
+  </picture>
+  <div class="modal">
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/VIDEO_ID"></iframe>
+    </div>
+  </div>
+  <article class="video-card">
+    <img src="thumbnail.jpg">
+    <h3>Video Title</h3>
+    <p>By Channel Name | 100k views</p>
+  </article>
+
+</body>
+</html>

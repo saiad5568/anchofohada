@@ -1,0 +1,33 @@
+/* public/styles.css */
+
+body {
+    font-family: Arial;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  .thumbnails {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    grid-gap: 10px;
+  }
+
+  .thumbnail {
+    transition: transform 0.3s;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.1);
+  }
+  body {
+    background: #232323;
+    color: white;
+  }
+  
+  .thumbnail {
+    border: 2px solid #3a3a3a;
+  }
+  body {
+    font-size: clamp(14px, 1.5vw, 18px); 
+  }
